@@ -1,0 +1,54 @@
+
+// LAYOUT CONFIG
+
+layout {
+	gaps 12
+	center-focused-column "on-overflow"
+	preset-column-widths {
+		proportion 0.33333
+		proportion 0.5
+		proportion 0.66667
+	}
+
+	default-column-width { proportion 0.5; }
+
+	focus-ring {
+		width 2
+		active-color "#ffffff56"
+		inactive-color "#5454549b"
+	}
+
+	border {
+		// on
+		width 2
+		active-color "#ffc87f"
+		inactive-color "#505050"
+	}
+
+	shadow {
+		on
+		softness 30
+		spread 5
+		offset x=0 y=5
+		color "#0007"
+	}
+
+	struts {
+		// left 64
+		// right 64
+		// top 64
+		// bottom 64
+	}
+}
+
+// ANIMATIONS CONFIG
+
+animations {
+	// off
+	// slowdown 3.0
+}
+
+window-rule {
+    geometry-corner-radius 16
+    clip-to-geometry true
+}
